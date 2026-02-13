@@ -1,0 +1,44 @@
+<!-- This is a comment: Sudent Object -->
+
+<students>
+    <!-- First student -->
+    <student id="S001">
+        <FullName>ANIL KUMAR</FullName>
+        <DOB>24-08-2024</DOB>
+        <major>Computer Science</major>
+        <year>3</year>
+        <email>ajkl@eamil.com</email>
+    <Addresses>
+            <PermAddress>
+                <FlatNumber>104</FlatNumber>
+                <Street>Gandhi Nagar</Street>
+                <City>Hyderabad</City>
+            </PermAddress>
+            <CurrentAddress>
+                <FlatNumber>104</FlatNumber>
+                <Street>Gandhi Nagar</Street>
+                <City>Hyderabad</City>
+            </CurrentAddress>
+        </Addresses>
+    </student>
+    <!-- Second student -->
+    <student id="S002">
+        <FullName>AKVIK</FullName>
+        <DOB>25-07-2000</DOB>
+        <major>Mathematics</major>
+        <year>4</year>
+        <email>horbvunj67@email.com</email>
+    <Addresses>
+            <PermAddress>
+                <FlatNumber>125</FlatNumber>
+                <Street>Auto Nagar</Street>
+                <City>Hyderabad</City>
+            </PermAddress>
+            <CurrentAddress>
+                <FlatNumber>104</FlatNumber>
+                <Street>Gandhi Nagar</Street>
+                <City>Hyderabad</City>
+            </CurrentAddress>
+        </Addresses>
+    </student>
+</students>

@@ -1,0 +1,43 @@
+# --- students profile ---
+
+student id: "S001" 
+-name: "ANIL KUMAR" 
+dob: "24-08-222"
+mail: "qwert23@mail.com"
+address: 
+  - flatNumber: 125
+    street: "sathosie"
+    city: hyderabad
+    type: current
+  
+  - flatNumber: 104
+    street: "gandhi nagar"
+    city: hyderabad
+    type: perm
+
+
+# -- Another type --
+
+# --- Student Profile ---
+student_id: 1001
+name: ANIL KUMAR
+is_active: true
+gpa: 7.85
+
+# List of courses
+courses B.SC:
+  - Math
+  - Physics
+  - Computer Science
+
+# Nested dictionary for address
+address:
+  street: 1-125, Osmania University
+  city: College Town
+  zip: 500001
+  type: current
+
+# Multi-line string for notes
+notes: |
+  Student is maintaining a high GPA.
+  Excelling in Computer Science.

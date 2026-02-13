@@ -1,0 +1,47 @@
+{
+    "student": [
+        {
+            "student id":"S001",
+            "Fullname": "ANIL KUMAR",
+            "DOB": "24-08-200",
+
+            "Address": [ {
+                "type": "perm",
+                "flat no.": 126,
+                "street": "churchey",
+                "city": "Hyderabad",
+                "state": "Telangan"
+            },
+            {
+                "type": "current",
+                "flat no.": 33,
+                "street": "cnieway",
+                "city": "Hyderabad",
+                "state": "Telangan"
+            }
+            ],
+            "Skills": [ "devops", "cloud", "linux" ]
+        }, 
+        {
+            "student id": "S002",
+            "Fullname": "Sivakumar Reddy",
+            "DOB": "1991-01-01",
+        
+            "addresses": [ 
+                {
+                    "type": "perm",
+                    "flatNumber": 104,
+                    "street": "gandhi nagar",
+                    "city": "hyderabad"
+                },
+                {
+                    "type" : "current",
+                    "flatNumber": 104,
+                    "street": "gandhi nagar",
+                    "city": "hyderabad"
+                }
+            ],
+            "Skills": ["java", "devops", "cloud"]
+        }
+    ]
+}
