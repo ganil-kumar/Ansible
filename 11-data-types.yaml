@@ -8,10 +8,10 @@
    DETAILS:                       # map/dictionary
     MONTHS: 4
     TRAINER: "Shivkumar Reddy"
-  TOPICS:                         # lists -> starts w/ -/[] 
-   - Linux
-   - Shell
-   - Ansible
+   TOPICS:                         # lists -> starts w/ -/[] 
+    - Linux
+    - Shell
+    - Ansible
   tasks:
   - name: Print variable
     ansible.builtin.debug:
