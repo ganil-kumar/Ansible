@@ -1,7 +1,7 @@
 - name: variables from args
   hosts: localhost
   connection: local
-  tasks:
+  tasks:      # if name not mention here than pass it from command line ex.-e Name=AK
   - name: print variables from args
     ansible.builtin.debug:
      msg: "Hi {{ Name }}, Good Morning"
