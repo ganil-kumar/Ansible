@@ -2,16 +2,25 @@
   hosts: localhost
   connection: local
   vars:
-   NAME: "Ansible from PLAY"
+   NAME: "Ansible from PLAY"   # Play-level variable
   vars_files:
-  - course.yaml
+  - course.yaml     # Variables loaded from a file
   vars_prompt:
   - name: NAME
     prompt: Please enter name
-    private: false
+    private: false        # Prompt-level variable
   tasks:
   - name: print name
     vars:
-     NAME: "Ansible from TASK"
+     NAME: "Ansible from TASK"        # Task-level variable
     ansible.builtin.debug:
      msg: "hi {{ NAME }}"
+
+     # If a variable is defined in multiple places, Ansible uses the one w/ highest priority. 
+     # If the variable is not defined anywhere, Ansible will show it as undefined.
+     # 1. Args
+     # 2. Task
+     # 3. File
+     # 4. Prompt
+     # 5. Play
+     # 6. Inventory
