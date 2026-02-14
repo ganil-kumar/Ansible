@@ -3,12 +3,12 @@
   connection: local
   vars:
    PROGRAM: "DevSecOps with AWS"  # string data
-   DURATION: 140   # int/number
-   IS_LIVE: true   # boolean
-   DETAILS:       # map/dictionary
+   DURATION: 140                  # int/number
+   IS_LIVE: true                  # boolean
+   DETAILS:                       # map/dictionary
     MONTHS: 4
     TRAINER: "Shivkumar Reddy"
-  TOPICS:      # lists -> starts w/ -/[] 
+  TOPICS:                         # lists -> starts w/ -/[] 
    - Linux
    - Shell
    - Ansible
