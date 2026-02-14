@@ -1,7 +1,7 @@
 - name: print username and password
   hosts: localhost
   connection: local
-  vars_prompt:
+  vars_prompt:     # using prompt
   - name: username
     prompt: Enter your username
     private: false
