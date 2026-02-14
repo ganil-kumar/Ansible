@@ -1,0 +1,9 @@
+---
+
+-name: ping the server # Give your task a name
+host: web               # Which computers from your inventory?
+task:                   # List of actions
+ -name: ping the server 
+ansible.builtin.ping:
+
+  
