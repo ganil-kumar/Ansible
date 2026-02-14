@@ -2,6 +2,6 @@
   hosts: localhost
   connection: local
   tasks: 
-  - name: greeting
+  - name: GREETING
     ansible.builtin.debug:
      msg: "hi akvik, {{ GREETING }}"
