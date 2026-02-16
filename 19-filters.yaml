@@ -4,7 +4,7 @@
   vars:
    topics: linux, shell, ansible, terraform
    course: "DevOps with Ansible"
-   myIp: "255.567.890.287"
+   myIp: "0.0.0.0"
    tagsMap:
     name: ansible
     project: roboshop
