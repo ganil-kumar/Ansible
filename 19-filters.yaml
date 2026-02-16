@@ -54,7 +54,7 @@
 
   - name: convert to upper case
     ansible.builtin.debug:
-     msg: "{{ course | upper case }}"
+     msg: "{{ course | upper }}"
 
   - name: check Ipv4
     ansible.builtin.debug:
