@@ -1,0 +1,8 @@
+- name: check idempotency
+  hosts: localhost
+  connection: local 
+  become:
+  tasks: 
+  - name: user creation
+    ansible.builtin.user:
+     name: akvik
